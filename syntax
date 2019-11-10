@@ -1,0 +1,32 @@
+- variable declaration:
+$var
+
+- declare define:
+define('var', 'value')
+
+- string:
+\" var \" or ' "string " '
+
+- direct us of var:
+{$var}
+
+- concatenation:
+$fullname.' '.$firstname 
+
+- types:
+gettype
+unset
+NULL 
+$arr = array('asdf', 'adf')
+$arr = array('name'='victor', 'surnam'='blablabla')
+uset element of the array is possible;
+count($array) => elements in array
+2d arrays are possible
+
+- std::out:
+print_r($array)
+var_dump
+
+- funcs:
+isset($x) - устанавливает, определена ли переменная.
+empty($x) - определяет, считается ли переменная пустой.
