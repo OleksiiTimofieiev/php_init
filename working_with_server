@@ -1,0 +1,15 @@
+- superglobal variable:
+$_SERVER['interested variable'] == in form of the array;
+- phpinfo(...) => settings information;
+
+/*
+********** forms
+*/
+
+instrument to communicate with server
+
+$_GET => to the access to information which was uploaded to the server;
+isset($_GET['submit']) => if from was sent
+GET => params will be sent in the text of the request;
+
+POST => not in the visible part of the request;
