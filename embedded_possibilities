@@ -1,0 +1,65 @@
+- array_reverse($array);
+
+/*
+************************************** vars
+/*
+
+- isset => if the value setted
+- empty => false if NULL;
+- gettype => get tipe of var
+- is_array. - int. - bool;
+- 	echo '<pre>';
+	print_r(get_defined_vars());
+	echo '</pre>';
+
+/*
+************************************** strings
+*/ 
+
+- printf(...);
+- sprintf(...);
+- strlen(...)
+- substr(...) => get substring;
+- str_replace(...)
+- explode(...) => separate str into parts;
+- implode(...) => array to string;
+
+/*
+************************************** math
+*/ 
+
+- max(...)
+- min(...)
+- rand(...)
+- round(...)
+- ceil(...) => round to upper value;
+- floor(...) => round to lover value;
+
+/*
+************************************** arrays
+*/ 
+
+- in_array(...)
+- arrays can be concatenated ia '+'
+- array_intersect(...)
+- array_diff(...)
+- sort(...)
+
+/*
+************************************** date and time
+*/ 
+
+- getdate(...)
+- time(...)
+- mktime(...)
+- date(...)
+
+/*
+************************************** process
+*/ 
+
+- die() & exit()
+- eval() => run code in the string;
+- list == std::tie
+- include_once => add the compilation unit;
+

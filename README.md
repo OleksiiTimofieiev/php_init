@@ -5,6 +5,6 @@ Starting to learn web development stack
 
 notes:
 
-tutorial: 	https://php-start.com/course/php-start-theory
-MAMP: 		https://bitnami.com/stack/mamp/installer
-
+tutorial: 		https://php-start.com/course/php-start-theory
+MAMP: 			https://bitnami.com/stack/mamp/installer
+documentation:	php.net
