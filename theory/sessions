@@ -1,0 +1,8 @@
+- to keep data on server;
+
+****************
+
+- session_start();
+- $_SESSION['var'] = ...;
+- session_id
+- session_name
