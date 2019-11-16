@@ -1,0 +1,24 @@
+cookie == special information for a brovser about the user
+
+- authentification of the user;
+- keeping the configurations of the user;
+- statistics
+- state of the session of access;
+- save data during site active
+- cookie will be available only during the active session of the browser;
+- time of the availability can be set in time;
+
+*********************************
+
+- setcookie("name", "victor", time() + 3600) == 3 param (time when cookie will be deleted);
+-	isset($_COOKIE['param'])
+
+*********************************
+
+- setcookie("name", "")
+- setcookie("name", "asdf", time() - 3) == like in the past
+
+*********************************
+
+- serialize => convert array to string;
+- unserialize => convert string to array;
