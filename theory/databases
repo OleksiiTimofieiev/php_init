@@ -1,0 +1,13 @@
+******
+
+$con = mysqli_connect("localhost", "root", "", "database name")
+
+if (mysqli_connect_errno())
+{
+	failed to connect
+}
+
+$query = "INSERT ... INTO ..."
+$info = mysqli_query($con, $query);
+
+var_dump($info);
